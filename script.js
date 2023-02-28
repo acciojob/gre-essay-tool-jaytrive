@@ -8,7 +8,6 @@ function realTimeChange(){
 	arr.forEach((value) => {
 		if(value=='') spaces++
 	})
-	if(arr.length==spaces) output.innerText=Number('abc')
-	else output.innerText=arr.length-spaces
+	output.innerText=arr.length-spaces
 }
 
